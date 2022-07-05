@@ -57,10 +57,20 @@
 }
 
 .hero{
-  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-image: url(/images/barry1.jpg);
+  background-size: cover;
+  overflow:hidden;
+  height:450px;
+  margin-left:10px;
+  margin-right: 20px;
+}
+.hero-info{
+  margin-top:-100px;
 }
 
-.hero img{
-  max-width: 100%;
-  
+.hero-info h3{
+  font-size:45px;
 }
