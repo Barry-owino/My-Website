@@ -107,4 +107,5 @@ padding:5px;
   color:#fff;
   background:#111;
   border:none;
+  transition: all 1s ease-in;
 }
