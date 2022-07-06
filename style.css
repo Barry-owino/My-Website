@@ -68,9 +68,43 @@
   margin-right: 20px;
 }
 .hero-info{
-  margin-top:-100px;
+  margin-top:00px;
 }
 
 .hero-info h3{
-  font-size:45px;
+  font-size:80px;
+  color:#fff;
+}
+
+.hero-links{
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+padding:5px;
+}
+
+.hero-links p{
+  font-size:26px;
+  color:#fff;
+}
+
+.hero-link{
+  padding:20px;
+}
+
+.hero-link a{
+  text-decoration:none;
+  background:#fff;
+  padding:8px;
+  color:#111;
+  font-size:20px;
+  border-radius:8px;
+  border:none;
+}
+
+.hero-links a:hover{
+  color:#fff;
+  background:#111;
+  border:none;
 }
