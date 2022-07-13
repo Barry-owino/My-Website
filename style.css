@@ -276,5 +276,14 @@ span{
   overflow:hidden;
   margin-top:10px;
   padding-top:20px;
+}
 
+.contact-cont{
+  background:#fff;
+  margin-left:20px;
+  margin-right:10px;
+  border-radius:8px;
+  padding:20px;
+  display:grid;
+  grid-template-columns:70% 30%;
 }
