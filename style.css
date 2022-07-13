@@ -280,10 +280,35 @@ span{
 
 .contact-cont{
   background:#fff;
+  height:450px;
   margin-left:20px;
   margin-right:10px;
   border-radius:8px;
   padding:20px;
   display:grid;
   grid-template-columns:70% 30%;
+}
+
+.cont-social{
+  background-image: url(/images/barry1.jpg);
+  background-size:cover;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:space-around;
+  width:160px;
+  height:300px;
+  padding:17px;
+  margin-left:15px;
+  color:#fff;
+}
+
+.cont-social div{
+  padding:5px;
+}
+
+.cont-social div a{
+  color:#fff;
+  text-decoration:none;
+  padding:10px;
 }
