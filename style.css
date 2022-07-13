@@ -180,7 +180,7 @@ padding:5px;
   margin-top:10px;
 }
 
-.container2 .projects-title h3,.about-title h3{
+.container2 .projects-title h3,.about-title h3,.contact-title h3{
   color:#fff;
   font-size:26px;
   font-weight:400;
@@ -202,7 +202,7 @@ padding:5px;
 
 .container3{
   background-image: url(/images/barry1.jpg);
-  height:750px;
+  height:450px;
   background-size:cover;
   margin-left:10px;
   margin-right: 20px;
@@ -265,4 +265,16 @@ span{
 
 .social-icon i{
   padding:10px;
+}
+
+.container4{
+  background-image: url(/images/barry1.jpg);
+  background-size:cover;
+  height:500px;
+  margin-left:10px;
+  margin-right: 20px;
+  overflow:hidden;
+  margin-top:10px;
+  padding-top:20px;
+
 }
