@@ -255,6 +255,12 @@ span{
 .social a{
   text-decoration: none;
   color:#fff;
+  padding:5px;
+}
+
+.social a:hover{
+  color:gold;
+  transition: all 3s ease-in-out;
 }
 
 .social-icon i{
