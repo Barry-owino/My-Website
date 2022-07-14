@@ -263,14 +263,14 @@ span{
   transition: all 3s ease-in-out;
 }
 
-.social-icon i{
+.social-icon i,.info.social-icon i{
   padding:10px;
 }
 
 .container4{
   background-image: url(/images/barry1.jpg);
   background-size:cover;
-  height:500px;
+  height:1000px;
   margin-left:10px;
   margin-right: 20px;
   overflow:hidden;
@@ -278,37 +278,95 @@ span{
   padding-top:20px;
 }
 
-.contact-cont{
+.form-box{
   background:#fff;
-  height:450px;
-  margin-left:20px;
-  margin-right:10px;
   border-radius:8px;
-  padding:20px;
-  display:grid;
-  grid-template-columns:70% 30%;
+  height:100vh;
+  padding-top:10px;
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:10px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
 }
 
-.cont-social{
+form{
   background-image: url(/images/barry1.jpg);
   background-size:cover;
+  border-radius:8px;
   display:flex;
-  flex-direction: column;
+  flex-direction:column;
+  padding:2vw 4vw;
+  width:70%;
+  max-width:600px;
+}
+
+form h3{
+  color:#fff;
+  font-weight:800;
+  margin-bottom:15px;
+}
+
+form input,form textarea{
+  border:0;
+  margin:10px 0;
+  padding:20px;
+  outline:none;
+  background:#f5f5f5;
+  font-size:16px;
+  border-radius:8px;
+}
+
+form button{
+  padding:15px;
+  background:#ff5361;
+  color:#fff;
+  border:none;
+  outline:none;
+  cursor:pointer;
+}
+
+.contact-info{
+  height:25vh;
+  background:#fff;
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:20px;
+  border-radius: 8px;
+}
+
+.info-title{
+  margin-left:20px;
+  margin-top:20px;
+}
+
+.info-title h3{
+  color:#111;
+  font-size:26px;
+}
+
+.contact-info .info{
+  background-image: url(/images/barry1.jpg);
+  background-size: cover;
+  margin:20px;
+  margin-top:10px;
+  padding:20px;
+  display:flex;
+  flex-direction:row;
   align-items:center;
   justify-content:space-around;
-  width:160px;
-  height:300px;
-  padding:17px;
-  margin-left:15px;
   color:#fff;
+  border-radius:8px;
 }
 
-.cont-social div{
+.info div{
   padding:5px;
+  margin:5px;
+  font-size:19px;
 }
 
-.cont-social div a{
-  color:#fff;
+.info .social-icon a{
   text-decoration:none;
-  padding:10px;
+  color:#fff;
 }
